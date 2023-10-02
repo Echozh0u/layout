@@ -1,0 +1,158 @@
+@font-face{
+    font-family: "哥特";
+    src: url("哥特.otf");
+  
+  
+  }
+  
+.flex-container {
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+  }
+
+
+  .flex-items:nth-child(1) {
+    height: 6pc;
+    width: 30pc;
+    margin:2pc;
+    display: block;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    background-color: rgb(255, 153, 80);
+    text-align: center;
+    font-family: "哥特";
+  }
+
+  
+  
+
+  .flex-items:nth-child(2) {
+    height: 6pc;
+    width: 30pc;
+    margin:2pc;
+    display: block;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    background-color: rgb(255, 153, 80);
+    text-align: center;
+    font-family: "哥特";
+  }
+
+  .flex-items:nth-child(3) {
+    height: 6pc;
+    width: 30pc;
+    margin:2pc;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    background-color: rgb(255, 153, 80);
+    text-align: center;
+    justify-content: center;
+    font-family: "哥特";
+  }
+
+  .flex-items:nth-child(4) {
+    height: 6pc;
+    width: 30pc;
+    margin:2pc;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    background-color: rgb(255, 153, 80);
+    text-align: center;
+    font-family: "哥特";
+  }
+
+  .btn-7 {
+    height:50px;
+    width: 150px;
+    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+      line-height: 42px;
+      padding: 0;
+      border: none;
+    }
+    .btn-7 span {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .btn-7:before,
+    .btn-7:after {
+      position: absolute;
+      content: "";
+      right: 0;
+      bottom: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7:before{
+       height: 0%;
+       width: 2px;
+    }
+    .btn-7:after {
+      width: 0%;
+      height: 2px;
+    }
+    .btn-7:hover{
+      color: rgba(251,75,2,1);
+      background: transparent;
+    }
+    .btn-7:hover:before {
+      height: 100%;
+    }
+    .btn-7:hover:after {
+      width: 100%;
+    }
+    .btn-7 span:before,
+    .btn-7 span:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7 span:before {
+      width: 2px;
+      height: 0%;
+    }
+    .btn-7 span:after {
+      height: 2px;
+      width: 0%;
+    }
+    .btn-7 span:hover:before {
+      height: 100%;
+    }
+    .btn-7 span:hover:after {
+      width: 100%;
+    }

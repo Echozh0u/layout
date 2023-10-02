@@ -1,0 +1,91 @@
+@font-face{
+    font-family: "哥特";
+    src: url("哥特.otf");
+  
+  
+  }
+  
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+  }
+
+  .flex-items:nth-child(1) {
+    height: 6pc;
+    width: 6pc;
+    margin-bottom:2pc;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: flex-start;
+    order: 0;
+    background-color: rgb(255, 153, 80);
+    text-align: center;
+  font-family: "哥特";
+    
+  }
+  del {
+    background: rgb(255, 153, 80);
+    color: rgb(255, 153, 80);
+    text-decoration:none;
+    }
+    del:hover {
+    color: #fff;
+    }
+
+  
+  
+
+  .flex-items:nth-child(2) {
+    height: 6pc;
+    width: 30pc;
+    margin:2pc;
+    display: block;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    background-color: rgb(255, 153, 80);
+    text-align: center;
+    font-family: "哥特";
+  }
+
+  .flex-items:nth-child(3) {
+    height: 6pc;
+    width: 30pc;
+    margin:2pc;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    background-color: rgb(255, 153, 80);
+    text-align: center;
+    justify-content: center;
+    font-family: "哥特";
+  }
+
+  .flex-items:nth-child(4) {
+    height: 6pc;
+    width: 30pc;
+    margin:2pc;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    background-color: rgb(255, 153, 80);
+    text-align: center;
+    font-family: "哥特";
+  }
+
+  
